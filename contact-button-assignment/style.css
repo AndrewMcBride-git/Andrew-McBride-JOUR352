@@ -1,0 +1,37 @@
+/*
+MY COLOR PALETTE
+Knicks Orange - #ff7700
+Knicks Blue - #2667ff
+Knicks Brown - #813405
+Knicks White - #f2edeb
+Color 5 - #HEX
+*/
+
+
+body {
+    background-color: #f2edeb;
+}
+
+button {
+    background-color: #2667ff;
+    color: #ff7700;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    width:200px;
+    padding:20px;
+    margin-top:50px;
+    
+    
+}
+
+button:hover {
+    background-color: #813405;
+}
+
+h1 {
+     font-family: "Abril Fatface", serif;
+}
+
+h2 {
+     font-family: "Abril Fatface", serif;
+}
