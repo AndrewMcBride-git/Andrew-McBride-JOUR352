@@ -20,6 +20,9 @@ button {
     width:200px;
     padding:20px;
     margin-top:50px;
+    border:none;
+    border-radius:45px;
+    
     
     
 }
