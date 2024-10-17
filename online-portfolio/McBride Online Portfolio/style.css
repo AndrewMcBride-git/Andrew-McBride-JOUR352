@@ -1,29 +1,83 @@
 @media {
-h1 {
-    font-family: "Arvo", serif;
-    font-size:50px;
-    margin-right:50px;
-}
-
-img {
-    width:100%;
-    border: 30px solid black;
-}
-
-#topper {
-    background-image:url(Myphoto.jpg);
-    background-size: cover;
-}
-
-#navigation {
-    background-color:#c3c8e1;
-    
-}
-
-}
-
-@media (min-width:576px) {
     h1 {
-        font-size:120px;
+        font-family: "Arvo", serif;
+        font-size: 50px;
+        margin-right: 50px;
+    }
+
+    img {
+        width: 100%;
+        border: 30px solid black;
+    }
+    #button {
+        padding: 10px 20px;
+        background-color: #ac7869;
+        color: white;
+        text-decoration: none;
+        margin-top: 400px;
+    }
+
+    #button:hover {
+        background-color: #48545f;
+        color: black;
+    }
+
+    #topper {
+        height: 816px;
+        background-image: url(Myphoto.jpg);
+        background-size: cover;
+        background-position: 25% 35%;
+    }
+    #navigation {
+        background-color: #c3c8e1;
+        border: top 40px;
+    }
+    #navigation .col-sm-4.text-right {
+        padding-left: 365px;
+    }
+    #navigation a {
+        color: black;
+        text-decoration: none;
+    }
+
+    #navigation a:hover {
+        text-decoration: underline;
+    }
+    #topper h3 {
+        text-align: right;
+    }
+
+    #experience {
+        margin-top: 10px;
+        margin-bottom: 100px;
+    }
+
+    #skills {
+        margin-top: 55px;
+        margin-bottom: 155px;
+    }
+
+    #education {
+        margin-top: 10px;
+        margin-bottom: 100px;
+        margin-left: 0;
+    }
+    .content {
+        background-color: #8494a1;
+        flex: 1;
+        padding: 20px;
+    }
+    #footer {
+        background-color: #ac7869;
+        color: white;
+        padding: 1px 0;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+}
+@media (min-width: 576px) {
+    h1 {
+        font-size: 120px;
     }
 }
