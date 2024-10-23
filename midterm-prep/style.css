@@ -19,11 +19,13 @@ contact a{
 }
 
 #contact a:hover {
+    font-weight: bold;
     color:red;
+    font-size:20px;
 }
 
 #info {
-    width: 700px;
+    width: 100%;
     margin:auto;
 }
 
