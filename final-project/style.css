@@ -1,0 +1,13 @@
+img {
+    width: 100%
+}
+
+
+#topperimage {
+    background-image: url(Top%20100%20img.jpeg);
+    background-size: cover;
+}
+
+h1 {
+    margin: 0px 0px 100px 0px;
+}
